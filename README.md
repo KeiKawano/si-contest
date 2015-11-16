@@ -12,6 +12,6 @@ SI Programing Contest 2015
 6. vagrant up
 7. vagrant ssh
 8. cd si-contest
-9. bundle install
+9. bundle install（初回は時間がかかる）
 10. rails s
 11. localhost:3000（ブラウザ）
