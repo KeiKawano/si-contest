@@ -13,5 +13,5 @@ SI Programing Contest 2015
 7. vagrant ssh
 8. cd si-contest
 9. bundle install（初回は時間がかかる）
-10. rails s
+10. bundle exec rails server -b 0.0.0.0
 11. localhost:3000（ブラウザ）
