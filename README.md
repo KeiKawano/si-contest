@@ -1,8 +1,6 @@
-# si-contest
-SI Programing Contest 2015
-
 ## PCで実行するための環境構築
-※構築済みの項目はスキップ
+* 構築済みの項目はスキップしてください
+* MacOS推奨
 
 #### VirtualBox ダウンロード
 https://www.virtualbox.org/wiki/Downloads から最新版をインストール
@@ -11,6 +9,7 @@ https://www.virtualbox.org/wiki/Downloads から最新版をインストール
 http://www.vagrantup.com/downloads から最新版をダウンロードしてインストール
 
 #### GitHubリポジトリをclone
+任意のディレクトリで<br>
 `git clone git@github.com:KeiKawano/si-contest.git`
 
 ※Git環境がない場合はzipファイルダウンロードして解凍
