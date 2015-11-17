@@ -16,13 +16,14 @@ http://www.vagrantup.com/downloads から最新版をダウンロードしてイ
 ※Git環境がない場合はzipファイルダウンロードして解凍
 
 #### ローカルリポジトリへ移動
-※Vagrentfileがあるディレクトリに移動<br>
 
 git cloneの場合<br>
 `cd si-contest`
 
 zipファイル解凍の場合<br>
 `cd si-contest-master/si-contest-master`
+
+※Vagrentfileがあるディレクトリに移動<br>
 
 #### プロビジョニング実行
 
@@ -37,5 +38,4 @@ bundle install（初回は時間がかかる）
 `bundle exec rails server -b 0.0.0.0`
 
 #### 確認
-ブラウザで<br>
-`localhost:3000`
+ブラウザで`localhost:3000`
