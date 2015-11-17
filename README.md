@@ -4,9 +4,6 @@ SI Programing Contest 2015
 ## PCで実行するための環境構築
 ※構築済みの項目はスキップ
 
-#### 前提
-* Gitがインストールされていること
-
 #### VirtualBox ダウンロード
 https://www.virtualbox.org/wiki/Downloads から最新版をインストール
 
@@ -15,16 +12,17 @@ http://www.vagrantup.com/downloads から最新版をダウンロードしてイ
 
 #### GitHubリポジトリをclone
 `git clone git@github.com:KeiKawano/si-contest.git`
-もしくはzipファイルダウンロードして解凍
+
+※Git環境がない場合はzipファイルダウンロードして解凍
 
 #### ローカルリポジトリへ移動
 ※Vagrentfileがあるディレクトリに移動<br>
 
 git cloneの場合<br>
-'cd si-contest'
+`cd si-contest`
 
 zipファイル解凍の場合<br>
-'cd si-contest-master/si-contest-master'
+`cd si-contest-master/si-contest-master`
 
 #### プロビジョニング実行
 
