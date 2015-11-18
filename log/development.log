@@ -1013,3 +1013,328 @@ Processing by PeopleController#new as HTML
   Rendered people/_form.html.erb (2.4ms)
   Rendered people/new.html.erb within layouts/application (3.5ms)
 Completed 200 OK in 40ms (Views: 38.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/people/new" for ::1 at 2015-11-18 11:48:04 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PeopleController#new as HTML
+  Rendered people/_form.html.erb (15.8ms)
+  Rendered people/new.html.erb within layouts/application (19.7ms)
+Completed 200 OK in 247ms (Views: 227.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/scaffolds.self-3e0156051e0c60830396897ed146379f3fbcd6306ab22b35e814027febb1c742.css?body=1" for ::1 at 2015-11-18 11:48:05 +0900
+
+
+Started GET "/assets/people.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-18 11:48:05 +0900
+
+
+Started GET "/assets/texts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-18 11:48:05 +0900
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-18 11:48:05 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-18 11:48:05 +0900
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-18 11:48:05 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-18 11:48:05 +0900
+
+
+Started GET "/assets/people.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 11:48:05 +0900
+
+
+Started GET "/assets/texts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 11:48:05 +0900
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-11-18 11:48:05 +0900
+
+
+Started GET "/people/new" for ::1 at 2015-11-18 11:48:07 +0900
+Processing by PeopleController#new as HTML
+  Rendered people/_form.html.erb (2.1ms)
+  Rendered people/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 41ms (Views: 40.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/texts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-18 11:48:07 +0900
+
+
+Started GET "/assets/scaffolds.self-3e0156051e0c60830396897ed146379f3fbcd6306ab22b35e814027febb1c742.css?body=1" for ::1 at 2015-11-18 11:48:07 +0900
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-18 11:48:07 +0900
+
+
+Started GET "/assets/people.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-18 11:48:07 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-18 11:48:07 +0900
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-18 11:48:07 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-18 11:48:07 +0900
+
+
+Started GET "/assets/people.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 11:48:07 +0900
+
+
+Started GET "/assets/texts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 11:48:07 +0900
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-11-18 11:48:07 +0900
+
+
+Started POST "/people" for ::1 at 2015-11-18 11:48:21 +0900
+Processing by PeopleController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+uy6jWzSCwFzj7v6ZCsa1gaT9ZvAumymNcWKZkaCttuvJP3K6PV+ZAVPIepf2CozMEjZHUaOtjnTYjDxyRNXjg==", "person"=>{"parent"=>"", "child"=>"", "file"=>#<ActionDispatch::Http::UploadedFile:0x007fae94d3a898 @tempfile=#<Tempfile:/var/folders/fj/f593htpj66xbjzqgmjltgrnc0000gr/T/RackMultipart20151118-25264-e2sr1v.txt>, @original_filename="ファイルイメージデータ.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"person[file]\"; filename=\"\xE3\x83\x95\xE3\x82\xA1\xE3\x82\xA4\xE3\x83\xAB\xE3\x82\xA4\xE3\x83\xA1\xE3\x83\xBC\xE3\x82\xB8\xE3\x83\x87\xE3\x83\xBC\xE3\x82\xBF.txt\"\r\nContent-Type: text/plain\r\n">}, "commit"=>"Create Person"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `file_will_change!' for #<Person:0x007fae944ac410>):
+  app/controllers/people_controller.rb:27:in `create'
+
+
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.5ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (24.6ms)
+Cannot render console with content type multipart/form-dataAllowed content types: [#<Mime::Type:0x007fae8ba52af8 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007fae8ba526c0 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007fae8ba63c68 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started GET "/people/new" for ::1 at 2015-11-18 11:55:22 +0900
+Processing by PeopleController#new as HTML
+  Rendered people/_form.html.erb (2.2ms)
+  Rendered people/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 44ms (Views: 43.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/people.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-18 11:55:23 +0900
+
+
+Started GET "/assets/scaffolds.self-3e0156051e0c60830396897ed146379f3fbcd6306ab22b35e814027febb1c742.css?body=1" for ::1 at 2015-11-18 11:55:23 +0900
+
+
+Started GET "/assets/texts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-18 11:55:23 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-18 11:55:23 +0900
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-18 11:55:23 +0900
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-18 11:55:23 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-18 11:55:23 +0900
+
+
+Started GET "/assets/texts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 11:55:23 +0900
+
+
+Started GET "/assets/people.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 11:55:23 +0900
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-11-18 11:55:23 +0900
+
+
+Started POST "/people" for ::1 at 2015-11-18 11:56:06 +0900
+Processing by PeopleController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7HtxL9XlDXihKcdAwyjEiRlgfI/4xrE+BFLtsFL8BNy5szZoUcJ4HdfpXVD42/RsL7tQCX7ya6Hi9Vcn3W3liQ==", "person"=>{"parent"=>"", "child"=>""}, "commit"=>"Create Person"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("parent", "child", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["parent", ""], ["child", ""], ["created_at", "2015-11-18 02:56:06.413446"], ["updated_at", "2015-11-18 02:56:06.413446"]]
+  [1m[35m (8.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/people/4
+Completed 302 Found in 16ms (ActiveRecord: 9.3ms)
+
+
+Started GET "/people/4" for ::1 at 2015-11-18 11:56:06 +0900
+Processing by PeopleController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered people/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 45ms (Views: 37.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/people/4" for ::1 at 2015-11-18 11:56:09 +0900
+Processing by PeopleController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mPerson Load (0.1ms)[0m  SELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered people/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 37ms (Views: 35.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/people.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-18 11:56:09 +0900
+
+
+Started GET "/assets/scaffolds.self-3e0156051e0c60830396897ed146379f3fbcd6306ab22b35e814027febb1c742.css?body=1" for ::1 at 2015-11-18 11:56:09 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-18 11:56:09 +0900
+
+
+Started GET "/assets/texts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-18 11:56:09 +0900
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-18 11:56:09 +0900
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-18 11:56:09 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-18 11:56:09 +0900
+
+
+Started GET "/assets/people.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 11:56:09 +0900
+
+
+Started GET "/assets/texts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 11:56:09 +0900
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-11-18 11:56:09 +0900
+
+
+Started GET "/people" for ::1 at 2015-11-18 11:58:26 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PeopleController#index as HTML
+  [1m[35mPerson Load (0.2ms)[0m  SELECT "people".* FROM "people"
+  Rendered people/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 227ms (Views: 212.6ms | ActiveRecord: 0.5ms)
+
+
+Started DELETE "/people/1" for ::1 at 2015-11-18 11:58:30 +0900
+Processing by PeopleController#destroy as HTML
+  Parameters: {"authenticity_token"=>"HcZ0bOFW8NoKlManQfmZPTX5nwsKb/v6zhUERL8pkiRIDjMrZXGFv3xUXLd6CqnYAyKzjYxbIWUosr7TMLhzcQ==", "id"=>"1"}
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 1]]
+  [1m[35m (4.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/people
+Completed 302 Found in 14ms (ActiveRecord: 5.0ms)
+
+
+Started GET "/people" for ::1 at 2015-11-18 11:58:30 +0900
+Processing by PeopleController#index as HTML
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people"[0m
+  Rendered people/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 40ms (Views: 39.3ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/people/2" for ::1 at 2015-11-18 11:58:33 +0900
+Processing by PeopleController#destroy as HTML
+  Parameters: {"authenticity_token"=>"D80fb15Walj+hb8162cmdSm6bOmAeELjU2Tvo61VuI5aBVgo2nEfPYhFJSXQlBaQH2FAbwZMmHy1w1U0IsRZ2w==", "id"=>"2"}
+  [1m[35mPerson Load (0.1ms)[0m  SELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "people" WHERE "people"."id" = ?  [["id", 2]]
+  [1m[36m (5.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/people
+Completed 302 Found in 9ms (ActiveRecord: 5.8ms)
+
+
+Started GET "/people" for ::1 at 2015-11-18 11:58:33 +0900
+Processing by PeopleController#index as HTML
+  [1m[35mPerson Load (0.2ms)[0m  SELECT "people".* FROM "people"
+  Rendered people/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 39ms (Views: 38.6ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/people/3" for ::1 at 2015-11-18 11:58:36 +0900
+Processing by PeopleController#destroy as HTML
+  Parameters: {"authenticity_token"=>"/VV+wPkX3sZ1f0oo7M10tqDX5G/PeoWcX55v0x6r502onTmHfTCrowO/0DjXPkRTlgzI6UlOXwO5OdVEkToGGA==", "id"=>"3"}
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 3]]
+  [1m[35m (4.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/people
+Completed 302 Found in 8ms (ActiveRecord: 5.0ms)
+
+
+Started GET "/people" for ::1 at 2015-11-18 11:58:36 +0900
+Processing by PeopleController#index as HTML
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people"[0m
+  Rendered people/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 40ms (Views: 38.5ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/people/4" for ::1 at 2015-11-18 11:58:39 +0900
+Processing by PeopleController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Al1BmOa8ymRVa9cU1/TpeIpJ00WBb5070b7eb4IF6fhXlQbfYpu/ASOrTQTsB9mdvJL/wwdbR6Q3GWT4DZQIrQ==", "id"=>"4"}
+  [1m[35mPerson Load (0.1ms)[0m  SELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "people" WHERE "people"."id" = ?  [["id", 4]]
+  [1m[36m (6.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/people
+Completed 302 Found in 9ms (ActiveRecord: 6.6ms)
+
+
+Started GET "/people" for ::1 at 2015-11-18 11:58:39 +0900
+Processing by PeopleController#index as HTML
+  [1m[35mPerson Load (0.2ms)[0m  SELECT "people".* FROM "people"
+  Rendered people/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 39ms (Views: 38.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/people/new" for ::1 at 2015-11-18 11:58:39 +0900
+Processing by PeopleController#new as HTML
+  Rendered people/_form.html.erb (15.2ms)
+  Rendered people/new.html.erb within layouts/application (18.8ms)
+Completed 200 OK in 57ms (Views: 55.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/people" for ::1 at 2015-11-18 11:58:52 +0900
+Processing by PeopleController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SDauaI+yyeq6oU6q84YEycP9OzM3jdmE60e9xP6KAhAd/ukvC5W8j8xh1LrIdTQs9SYXtbG5AxsN4AdTcRvjRQ==", "person"=>{"parent"=>"", "child"=>"", "file"=>#<ActionDispatch::Http::UploadedFile:0x007fb51e8c2d98 @tempfile=#<Tempfile:/var/folders/fj/f593htpj66xbjzqgmjltgrnc0000gr/T/RackMultipart20151118-25646-1yqi5zt.txt>, @original_filename="ファイルイメージデータ.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"person[file]\"; filename=\"\xE3\x83\x95\xE3\x82\xA1\xE3\x82\xA4\xE3\x83\xAB\xE3\x82\xA4\xE3\x83\xA1\xE3\x83\xBC\xE3\x82\xB8\xE3\x83\x87\xE3\x83\xBC\xE3\x82\xBF.txt\"\r\nContent-Type: text/plain\r\n">}, "commit"=>"Create Person"}
+Completed 500 Internal Server Error in 911253ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `file_will_change!' for #<Person:0x007fb515f67058>):
+  app/controllers/people_controller.rb:28:in `create'
+
+
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.1ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (27.6ms)
+Cannot render console with content type multipart/form-dataAllowed content types: [#<Mime::Type:0x007fb5143bea40 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007fb5143be5e0 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007fb5143cfb88 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started GET "/people/new" for ::1 at 2015-11-18 12:18:08 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PeopleController#new as HTML
+  Rendered people/_form.html.erb (18.1ms)
+  Rendered people/new.html.erb within layouts/application (22.0ms)
+Completed 200 OK in 254ms (Views: 236.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-18 12:18:09 +0900
+
+
+Started GET "/assets/scaffolds.self-3e0156051e0c60830396897ed146379f3fbcd6306ab22b35e814027febb1c742.css?body=1" for ::1 at 2015-11-18 12:18:09 +0900
+
+
+Started GET "/assets/texts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-18 12:18:09 +0900
+
+
+Started GET "/assets/people.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-18 12:18:09 +0900
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-18 12:18:09 +0900
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-18 12:18:09 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-18 12:18:09 +0900
+
+
+Started GET "/assets/people.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 12:18:09 +0900
+
+
+Started GET "/assets/texts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 12:18:09 +0900
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-11-18 12:18:09 +0900

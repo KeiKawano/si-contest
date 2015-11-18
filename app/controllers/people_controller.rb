@@ -24,6 +24,7 @@ class PeopleController < ApplicationController
   # POST /people
   # POST /people.json
   def create
+    # file_read(params)
     @person = Person.new(person_params)
 
     respond_to do |format|
