@@ -1338,3 +1338,559 @@ Started GET "/assets/texts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde45
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-11-18 12:18:09 +0900
+
+
+Started GET "/people/new" for ::1 at 2015-11-18 13:20:00 +0900
+Processing by PeopleController#new as HTML
+  Rendered people/_form.html.erb (2.3ms)
+  Rendered people/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 58ms (Views: 48.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/people.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-18 13:20:01 +0900
+
+
+Started GET "/assets/scaffolds.self-3e0156051e0c60830396897ed146379f3fbcd6306ab22b35e814027febb1c742.css?body=1" for ::1 at 2015-11-18 13:20:01 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-18 13:20:01 +0900
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-18 13:20:01 +0900
+
+
+Started GET "/assets/texts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-18 13:20:01 +0900
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-18 13:20:01 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-18 13:20:01 +0900
+
+
+Started GET "/assets/texts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 13:20:01 +0900
+
+
+Started GET "/assets/people.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 13:20:01 +0900
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-11-18 13:20:01 +0900
+
+
+Started POST "/people" for ::1 at 2015-11-18 13:20:07 +0900
+Processing by PeopleController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Xio26OGpAK7qzCsBqaCVhVsn+zmYUVaDkdLlqk90x+sL4nGvZY51y5wMsRGSU6VgbfzXvx5ljBx3dV89wOUmvg==", "person"=>{"parent"=>"", "child"=>"", "file"=>#<ActionDispatch::Http::UploadedFile:0x007fdf11c17940 @tempfile=#<Tempfile:/var/folders/fj/f593htpj66xbjzqgmjltgrnc0000gr/T/RackMultipart20151118-26153-1rb1ard.txt>, @original_filename="ファイルイメージデータ.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"person[file]\"; filename=\"\xE3\x83\x95\xE3\x82\xA1\xE3\x82\xA4\xE3\x83\xAB\xE3\x82\xA4\xE3\x83\xA1\xE3\x83\xBC\xE3\x82\xB8\xE3\x83\x87\xE3\x83\xBC\xE3\x82\xBF.txt\"\r\nContent-Type: text/plain\r\n">}, "commit"=>"Create Person"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `file_will_change!' for #<Person:0x007fdf11c252c0>):
+  app/controllers/people_controller.rb:28:in `create'
+
+
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.0ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.2ms)
+Cannot render console with content type multipart/form-dataAllowed content types: [#<Mime::Type:0x007fdf0c582b20 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007fdf0c5826e8 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007fdf0c593c90 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/people" for ::1 at 2015-11-18 13:20:56 +0900
+Processing by PeopleController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Xio26OGpAK7qzCsBqaCVhVsn+zmYUVaDkdLlqk90x+sL4nGvZY51y5wMsRGSU6VgbfzXvx5ljBx3dV89wOUmvg==", "person"=>{"parent"=>"kei", "child"=>"kawano"}, "commit"=>"Create Person"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("parent", "child", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["parent", "kei"], ["child", "kawano"], ["created_at", "2015-11-18 04:20:56.041671"], ["updated_at", "2015-11-18 04:20:56.041671"]]
+  [1m[35m (108.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/people/5
+Completed 302 Found in 116ms (ActiveRecord: 109.2ms)
+
+
+Started GET "/people/5" for ::1 at 2015-11-18 13:20:56 +0900
+Processing by PeopleController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered people/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 49ms (Views: 42.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/people/5/edit" for ::1 at 2015-11-18 13:21:02 +0900
+Processing by PeopleController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mPerson Load (0.2ms)[0m  SELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered people/_form.html.erb (2.8ms)
+  Rendered people/edit.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 48ms (Views: 45.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/people" for ::1 at 2015-11-18 13:21:04 +0900
+Processing by PeopleController#index as HTML
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people"[0m
+  Rendered people/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 39ms (Views: 38.0ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/people/5" for ::1 at 2015-11-18 13:21:08 +0900
+Processing by PeopleController#destroy as HTML
+  Parameters: {"authenticity_token"=>"CkkDWgXuEX3pu1zNUkKegtKN5onDr9vK4rrXRZUOoP1fgUQdgclkGJ97xt1psa5n5FbKD0WbAVUEHW3SGp9BqA==", "id"=>"5"}
+  [1m[35mPerson Load (0.2ms)[0m  SELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  DELETE FROM "people" WHERE "people"."id" = ?  [["id", 5]]
+  [1m[36m (2.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/people
+Completed 302 Found in 6ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/people" for ::1 at 2015-11-18 13:21:08 +0900
+Processing by PeopleController#index as HTML
+  [1m[35mPerson Load (0.2ms)[0m  SELECT "people".* FROM "people"
+  Rendered people/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 42ms (Views: 40.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/people/new" for ::1 at 2015-11-18 13:21:10 +0900
+Processing by PeopleController#new as HTML
+  Rendered people/_form.html.erb (1.9ms)
+  Rendered people/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 40ms (Views: 39.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/people" for ::1 at 2015-11-18 13:21:13 +0900
+Processing by PeopleController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/me0v2QTr9XUCdWgT7Mt61p9T1s0YXUjiSSRfiD71MSrr/P44DTasKLJT7B0QB0ObKZj3bJVr7xvgyvpr2o1kQ==", "person"=>{"parent"=>"", "child"=>""}, "commit"=>"Create Person"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "people" ("parent", "child", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["parent", ""], ["child", ""], ["created_at", "2015-11-18 04:21:13.470334"], ["updated_at", "2015-11-18 04:21:13.470334"]]
+  [1m[36m (2.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/people/6
+Completed 302 Found in 7ms (ActiveRecord: 3.2ms)
+
+
+Started GET "/people/6" for ::1 at 2015-11-18 13:21:13 +0900
+Processing by PeopleController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mPerson Load (0.1ms)[0m  SELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered people/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 35ms (Views: 34.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/people" for ::1 at 2015-11-18 13:21:16 +0900
+Processing by PeopleController#index as HTML
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people"[0m
+  Rendered people/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 47ms (Views: 45.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/people/new" for ::1 at 2015-11-18 13:21:17 +0900
+Processing by PeopleController#new as HTML
+  Rendered people/_form.html.erb (1.9ms)
+  Rendered people/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 44ms (Views: 43.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/people" for ::1 at 2015-11-18 13:21:23 +0900
+Processing by PeopleController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sDwjS6Howpc5pFbqSYqo6qQ3cB1/C8zGg0UpnnKZ0PTl9GQMJc+38k9kzPpyeZgPkuxcm/k/Flll4pMJ/QgxoQ==", "person"=>{"parent"=>"", "child"=>"", "file"=>#<ActionDispatch::Http::UploadedFile:0x007fdf095e2a78 @tempfile=#<Tempfile:/var/folders/fj/f593htpj66xbjzqgmjltgrnc0000gr/T/RackMultipart20151118-26153-r3omv3.txt>, @original_filename="ファイルイメージデータ.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"person[file]\"; filename=\"\xE3\x83\x95\xE3\x82\xA1\xE3\x82\xA4\xE3\x83\xAB\xE3\x82\xA4\xE3\x83\xA1\xE3\x83\xBC\xE3\x82\xB8\xE3\x83\x87\xE3\x83\xBC\xE3\x82\xBF.txt\"\r\nContent-Type: text/plain\r\n">}, "commit"=>"Create Person"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `file_will_change!' for #<Person:0x007fdf0b374618>):
+  app/controllers/people_controller.rb:28:in `create'
+
+
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.9ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.6ms)
+Cannot render console with content type multipart/form-dataAllowed content types: [#<Mime::Type:0x007fdf0c582b20 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007fdf0c5826e8 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007fdf0c593c90 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/people" for ::1 at 2015-11-18 13:22:39 +0900
+Processing by PeopleController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"i49wXb+OjCzy3prWNsSf2sc7aiC8XUHnU6wYFJtF+3veRzcaO6n5SYQeAMYNN68/8eBGpjppm3i1C6KDFNQaLg==", "person"=>{"parent"=>"test", "child"=>"test", "file"=>#<ActionDispatch::Http::UploadedFile:0x007fdf119fb3f0 @tempfile=#<Tempfile:/var/folders/fj/f593htpj66xbjzqgmjltgrnc0000gr/T/RackMultipart20151118-26153-kxu8bh.txt>, @original_filename="ファイルイメージデータ.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"person[file]\"; filename=\"\xE3\x83\x95\xE3\x82\xA1\xE3\x82\xA4\xE3\x83\xAB\xE3\x82\xA4\xE3\x83\xA1\xE3\x83\xBC\xE3\x82\xB8\xE3\x83\x87\xE3\x83\xBC\xE3\x82\xBF.txt\"\r\nContent-Type: text/plain\r\n">}, "commit"=>"Create Person"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `file_will_change!' for #<Person:0x007fdf11a00cb0>):
+  app/controllers/people_controller.rb:28:in `create'
+
+
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.3ms)
+Cannot render console with content type multipart/form-dataAllowed content types: [#<Mime::Type:0x007fdf0c582b20 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007fdf0c5826e8 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007fdf0c593c90 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started GET "/" for ::1 at 2015-11-18 13:27:46 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/railties-4.2.3/lib/rails/templates/rails/welcome/index.html.erb (1.3ms)
+Completed 200 OK in 14ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/index" for ::1 at 2015-11-18 13:27:53 +0900
+
+ActionController::RoutingError (No route matches [GET] "/files/index"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.5ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.8ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (46.7ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (16.1ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (33.9ms)
+
+
+Started GET "/files/people/index" for ::1 at 2015-11-18 13:28:08 +0900
+
+ActionController::RoutingError (No route matches [GET] "/files/people/index"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.4ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (39.5ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (15.0ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (32.0ms)
+
+
+Started GET "/files/people/new" for ::1 at 2015-11-18 13:28:17 +0900
+
+ActionController::RoutingError (No route matches [GET] "/files/people/new"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.2ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (32.9ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (21.2ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (38.7ms)
+
+
+Started GET "/files/people/" for ::1 at 2015-11-18 13:28:25 +0900
+
+ActionController::RoutingError (No route matches [GET] "/files/people"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.4ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (32.9ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (17.8ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (36.5ms)
+
+
+Started GET "/files/people" for ::1 at 2015-11-18 13:28:34 +0900
+
+ActionController::RoutingError (No route matches [GET] "/files/people"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (31.6ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (16.0ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (33.8ms)
+
+
+Started GET "/texts/new" for ::1 at 2015-11-18 13:28:58 +0900
+Processing by TextsController#new as HTML
+  Rendered texts/_form.html.erb (9.3ms)
+  Rendered texts/new.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 229ms (Views: 219.0ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/texts" for ::1 at 2015-11-18 13:29:12 +0900
+Processing by TextsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oYl2Ex8Upr2s21MGaEtVEDXWlM4JL/qpoWumpODoqYH0QTFUmzPT2NobyRZTuGX1Aw24SI8bIDZHzBwzb3lI1A==", "text"=>{"name"=>"", "file"=>#<ActionDispatch::Http::UploadedFile:0x007f80c2ca8998 @tempfile=#<Tempfile:/var/folders/fj/f593htpj66xbjzqgmjltgrnc0000gr/T/RackMultipart20151118-27732-3gp1cy.txt>, @original_filename="ファイルイメージデータ.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"text[file]\"; filename=\"\xE3\x83\x95\xE3\x82\xA1\xE3\x82\xA4\xE3\x83\xAB\xE3\x82\xA4\xE3\x83\xA1\xE3\x83\xBC\xE3\x82\xB8\xE3\x83\x87\xE3\x83\xBC\xE3\x82\xBF.txt\"\r\nContent-Type: text/plain\r\n">}, "commit"=>"Create Text"}
+Unpermitted parameter: file
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "texts" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", ""], ["created_at", "2015-11-18 04:29:12.924539"], ["updated_at", "2015-11-18 04:29:12.924539"]]
+  [1m[35m (56.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/texts/1
+Completed 302 Found in 63ms (ActiveRecord: 56.8ms)
+
+
+Started GET "/texts/1" for ::1 at 2015-11-18 13:29:12 +0900
+Processing by TextsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mText Load (0.2ms)[0m  [1mSELECT  "texts".* FROM "texts" WHERE "texts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered texts/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 42ms (Views: 36.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/texts" for ::1 at 2015-11-18 13:29:20 +0900
+Processing by TextsController#index as HTML
+  [1m[35mText Load (0.2ms)[0m  SELECT "texts".* FROM "texts"
+  Rendered texts/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 122ms (Views: 121.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/people/new" for ::1 at 2015-11-18 13:32:05 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PeopleController#new as HTML
+  Rendered people/_form.html.erb (14.4ms)
+  Rendered people/new.html.erb within layouts/application (17.7ms)
+Completed 200 OK in 235ms (Views: 218.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/texts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-18 13:32:06 +0900
+
+
+Started GET "/assets/people.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-18 13:32:06 +0900
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-18 13:32:06 +0900
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-18 13:32:06 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-18 13:32:06 +0900
+
+
+Started GET "/assets/scaffolds.self-3e0156051e0c60830396897ed146379f3fbcd6306ab22b35e814027febb1c742.css?body=1" for ::1 at 2015-11-18 13:32:06 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-18 13:32:06 +0900
+
+
+Started GET "/assets/people.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 13:32:06 +0900
+
+
+Started GET "/assets/texts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 13:32:06 +0900
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-11-18 13:32:06 +0900
+
+
+Started POST "/people" for ::1 at 2015-11-18 13:32:21 +0900
+Processing by PeopleController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BzZUZZVJg7H0BsX8qB7g5CceG2cYS87PUJjXTOYNwXpS/hMiEW721ILGX+yT7dABEcU34Z5/FFC2P23baZwgLw==", "person"=>{"parent"=>"", "child"=>"", "file"=>#<ActionDispatch::Http::UploadedFile:0x007f8e51cc1c80 @tempfile=#<Tempfile:/var/folders/fj/f593htpj66xbjzqgmjltgrnc0000gr/T/RackMultipart20151118-27789-d8qwnx.txt>, @original_filename="ファイルイメージデータ.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"person[file]\"; filename=\"\xE3\x83\x95\xE3\x82\xA1\xE3\x82\xA4\xE3\x83\xAB\xE3\x82\xA4\xE3\x83\xA1\xE3\x83\xBC\xE3\x82\xB8\xE3\x83\x87\xE3\x83\xBC\xE3\x82\xBF.txt\"\r\nContent-Type: text/plain\r\n">}, "commit"=>"Create Person"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `file_will_change!' for #<Person:0x007f8e51ce16c0>):
+  app/controllers/people_controller.rb:28:in `create'
+
+
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.1ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/k.kawano/.rbenv/versions/2.0.0-p576/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.2ms)
+Cannot render console with content type multipart/form-dataAllowed content types: [#<Mime::Type:0x007f8e4b1eeae8 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007f8e4b1ee6b0 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007f8e4b1ffc58 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/texts" for ::1 at 2015-11-18 13:33:25 +0900
+Processing by TextsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oYl2Ex8Upr2s21MGaEtVEDXWlM4JL/qpoWumpODoqYH0QTFUmzPT2NobyRZTuGX1Aw24SI8bIDZHzBwzb3lI1A==", "text"=>{"name"=>"", "file"=>#<ActionDispatch::Http::UploadedFile:0x007f8e4ca17cf0 @tempfile=#<Tempfile:/var/folders/fj/f593htpj66xbjzqgmjltgrnc0000gr/T/RackMultipart20151118-27789-10yjybq.txt>, @original_filename="ファイルイメージデータ.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"text[file]\"; filename=\"\xE3\x83\x95\xE3\x82\xA1\xE3\x82\xA4\xE3\x83\xAB\xE3\x82\xA4\xE3\x83\xA1\xE3\x83\xBC\xE3\x82\xB8\xE3\x83\x87\xE3\x83\xBC\xE3\x82\xBF.txt\"\r\nContent-Type: text/plain\r\n">}, "commit"=>"Create Text"}
+Unpermitted parameter: file
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "texts" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", ""], ["created_at", "2015-11-18 04:33:25.695365"], ["updated_at", "2015-11-18 04:33:25.695365"]]
+  [1m[35m (49.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/texts/2
+Completed 302 Found in 65ms (ActiveRecord: 50.3ms)
+
+
+Started GET "/texts/2" for ::1 at 2015-11-18 13:33:25 +0900
+Processing by TextsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mText Load (0.2ms)[0m  [1mSELECT  "texts".* FROM "texts" WHERE "texts"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered texts/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 47ms (Views: 41.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/texts" for ::1 at 2015-11-18 13:33:28 +0900
+Processing by TextsController#index as HTML
+  [1m[35mText Load (0.2ms)[0m  SELECT "texts".* FROM "texts"
+  Rendered texts/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 45ms (Views: 43.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/texts/new" for ::1 at 2015-11-18 13:33:32 +0900
+Processing by TextsController#new as HTML
+  Rendered texts/_form.html.erb (2.3ms)
+  Rendered texts/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 122ms (Views: 121.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/texts" for ::1 at 2015-11-18 13:33:39 +0900
+Processing by TextsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"v1YlvzmbSphZhAMykO3iJN6g60928ChVtBiigsIDkW3qnmL4vbw//S9EmSKrHtLB6HvHyfDE8spSvxgVTZJwOA==", "text"=>{"name"=>"", "file"=>#<ActionDispatch::Http::UploadedFile:0x007f8e51a125c0 @tempfile=#<Tempfile:/var/folders/fj/f593htpj66xbjzqgmjltgrnc0000gr/T/RackMultipart20151118-27789-9x6q3v.txt>, @original_filename="ファイルイメージデータ.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"text[file]\"; filename=\"\xE3\x83\x95\xE3\x82\xA1\xE3\x82\xA4\xE3\x83\xAB\xE3\x82\xA4\xE3\x83\xA1\xE3\x83\xBC\xE3\x82\xB8\xE3\x83\x87\xE3\x83\xBC\xE3\x82\xBF.txt\"\r\nContent-Type: text/plain\r\n">}, "commit"=>"Create Text"}
+Unpermitted parameter: file
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "texts" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", ""], ["created_at", "2015-11-18 04:33:39.555684"], ["updated_at", "2015-11-18 04:33:39.555684"]]
+  [1m[36m (51.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/texts/3
+Completed 302 Found in 58ms (ActiveRecord: 52.3ms)
+
+
+Started GET "/texts/3" for ::1 at 2015-11-18 13:33:39 +0900
+Processing by TextsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mText Load (0.2ms)[0m  SELECT  "texts".* FROM "texts" WHERE "texts"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered texts/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 38ms (Views: 36.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/texts" for ::1 at 2015-11-18 13:33:41 +0900
+Processing by TextsController#index as HTML
+  [1m[36mText Load (0.2ms)[0m  [1mSELECT "texts".* FROM "texts"[0m
+  Rendered texts/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 36ms (Views: 35.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/texts/new" for ::1 at 2015-11-18 13:33:45 +0900
+Processing by TextsController#new as HTML
+  Rendered texts/_form.html.erb (1.6ms)
+  Rendered texts/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 42ms (Views: 41.1ms | ActiveRecord: 0.0ms)
