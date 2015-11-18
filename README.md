@@ -1,6 +1,7 @@
-## PCで実行するための環境構築
+# PCで実行するための環境構築
 * 構築済みの項目はスキップしてください
-* MacOS推奨
+
+## MacOS
 
 #### VirtualBox ダウンロード
 https://www.virtualbox.org/wiki/Downloads から最新版をインストール
@@ -38,3 +39,5 @@ bundle install（初回は時間がかかる）
 
 #### 確認
 ブラウザで`localhost:3000`
+
+
